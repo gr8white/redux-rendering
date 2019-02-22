@@ -8,13 +8,13 @@ subscribe(() => render(getState()));
 // Write DOM event listeners here, make them dispatch actions to the Redux store 
 
 var width = document.getElementById("width")
-width.addEventListener('click', e => dispatch({type: "WIDTH"}), console.log("index"))
+width.addEventListener('click', e => dispatch({type: "WIDTH"}))
 
 var height = document.getElementById("height")
-height.addEventListener('click', e => dispatch({type: "HEIGHT"}), console.log("index"))
+height.addEventListener('click', e => dispatch({type: "HEIGHT"}))
 
 var red = document.getElementById("red")
-red.addEventListener('click', e => dispatch({type: "COLOR", color: "red"}), console.log("index"))
+red.addEventListener('click', e => dispatch({type: "COLOR", color: "red"}))
 
 var blue = document.getElementById("blue")
-blue.addEventListener('click', e => dispatch({type: "COLOR",color: "blue"}), console.log("index"))
+blue.addEventListener('click', e => dispatch({type: "COLOR",color: "blue"}))

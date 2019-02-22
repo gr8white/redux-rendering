@@ -1,24 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
-    <button id="sortLikes">Order by # Likes</button>
-    <button id="sortRetweets">Order by # Retweets</button>
-    <button id="sortReplies">Order by # Replies</button>
-    <div id="tweetsContainer">
-    
+  <button id="sortLikes">Order by # Likes</button>
+  <button id="sortRetweets">Order by # Retweets</button>
+  <button id="sortReplies">Order by # Replies</button>
+  <div id="tweetsContainer">
+    <div class="d-flex flex-column justify-content-start align-items-center mt-5">
+        
+      <div class="bg-white p-2 m-2 w-50">
+        <div class="d-flex align-items-center">
+          <img width="50" src="https://image.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg">
+          <div class="mt-4 ml-2">
+            <b>Jaden Smith</b>
+            <img width="15" src="twitterIcons/check-circle.svg">
+            <p>@officialjaden</p>
+          </div>
+        </div>
+        <h3>The Moment That Truth Is Organized It Becomes A Lie</h3>
+        <hr>
+        <div class="d-flex text-secondary">
+          <img style="opacity: 0.62" src="twitterIcons/message-circle.svg">
+          <b class="mr-3 ml-1">21</b>
+          <img style="opacity: 0.62" src="twitterIcons/repeat.svg">
+          <b class="mr-3 ml-1">12</b>
+          <img style="opacity: 0.62" src="twitterIcons/heart.svg">
+          <b class="mr-3 ml-1">231</b>
+        </div>
+      </div>
+  
+      <div class="bg-white p-2 m-2 w-50">
+        <div class="d-flex align-items-center">
+          <img width="50" src="https://image.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg">
+          <div class="mt-4 ml-2">
+            <b>Jaden Smith</b>
+            <img width="15" src="twitterIcons/check-circle.svg">
+            <p>@officialjaden</p>
+          </div>
+        </div>
+        <h3>How Can Mirrors Be Real If Our Eyes Aren't Real</h3>
+        <hr>
+        <div class="d-flex text-secondary">
+          <img style="opacity: 0.62" src="twitterIcons/message-circle.svg">
+          <b class="mr-3 ml-1">24</b>
+          <img style="opacity: 0.62" src="twitterIcons/repeat.svg">
+          <b class="mr-3 ml-1">2</b>
+          <img style="opacity: 0.62" src="twitterIcons/heart.svg">
+          <b class="mr-3 ml-1">112</b>
+        </div>
+      </div>
+  
+      <div class="bg-white p-2 m-2 w-50">
+        <div class="d-flex align-items-center">
+          <img width="50" src="https://image.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg">
+          <div class="mt-4 ml-2">
+            <b>DigitalCrafts Bootcamp</b>
+            <p>@DigitalCrafts</p>
+          </div>
+        </div>
+        <h3>Sign up for our next course plz!</h3>
+        <hr>
+        <div class="d-flex text-secondary">
+            <img style="opacity: 0.62" src="twitterIcons/message-circle.svg">
+            <b class="mr-3 ml-1">144</b>
+            <img style="opacity: 0.62" src="twitterIcons/repeat.svg">
+            <b class="mr-3 ml-1">3</b>
+            <img style="opacity: 0.62" src="twitterIcons/heart.svg">
+            <b class="mr-3 ml-1">11</b>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
-    <script src="reducer.js"></script>
-    <script src="render.js"></script>
-    <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
+  <script src="reducer.js"></script>
+  <script src="render.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
